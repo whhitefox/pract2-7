@@ -1,0 +1,105 @@
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Практическая7.exe.config
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Практическая7.exe
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Практическая7.pdb
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.AssemblyReference.cache
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.SuggestedBindingRedirects.cache
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionsPage.g.cs
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\MainWindow.g.cs
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\TeamPage.g.cs
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\App.g.cs
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7_MarkupCompile.cache
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7_MarkupCompile.lref
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionsPage.baml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\MainWindow.baml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\TeamPage.baml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.g.resources
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.Properties.Resources.resources
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.GenerateResource.cache
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.CoreCompileInputs.cache
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.CopyComplete
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.exe
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.pdb
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Newtonsoft.Json.dll
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Newtonsoft.Json.xml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionControl.g.cs
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionControl.baml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Data\champions.json
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionWindow.g.cs
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionWindow.baml
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Data\champions.json
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Практическая7.exe.config
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Практическая7.exe
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Практическая7.pdb
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.AssemblyReference.cache
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.SuggestedBindingRedirects.cache
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionControl.g.cs
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionsPage.g.cs
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionWindow.g.cs
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\MainWindow.g.cs
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\TeamPage.g.cs
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\App.g.cs
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7_MarkupCompile.cache
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7_MarkupCompile.lref
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionControl.baml
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionsPage.baml
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionWindow.baml
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\MainWindow.baml
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\TeamPage.baml
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.g.resources
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.Properties.Resources.resources
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.GenerateResource.cache
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.CoreCompileInputs.cache
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.CopyComplete
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.exe
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\Практическая7.pdb
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionLineControl.g.cs
+C:\Users\Надеев\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionLineControl.baml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionLineControl.g.cs
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\ChampionLineControl.baml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\SynergyControl.g.cs
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\obj\Debug\View\SynergyControl.baml
+C:\Users\X-AROK\source\repos\Практическая7\Практическая7\bin\Debug\Data\classes.json
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Data\champions.json
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Data\classes.json
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Практическая7.exe.config
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Практическая7.exe
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Практическая7.pdb
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Newtonsoft.Json.dll
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\C# Projects\Практическая7\Практическая7\bin\Debug\Newtonsoft.Json.xml
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.AssemblyReference.cache
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.SuggestedBindingRedirects.cache
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\ChampionLineControl.g.cs
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\ChampionControl.g.cs
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\ChampionsPage.g.cs
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\ChampionWindow.g.cs
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\MainWindow.g.cs
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\SynergyControl.g.cs
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\TeamPage.g.cs
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\App.g.cs
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7_MarkupCompile.cache
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7_MarkupCompile.lref
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\ChampionLineControl.baml
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\ChampionControl.baml
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\ChampionsPage.baml
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\ChampionWindow.baml
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\MainWindow.baml
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\SynergyControl.baml
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\View\TeamPage.baml
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.g.resources
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.Properties.Resources.resources
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.GenerateResource.cache
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.CoreCompileInputs.cache
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.csproj.CopyComplete
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.exe
+D:\C# Projects\Практическая7\Практическая7\obj\Debug\Практическая7.pdb

@@ -1,0 +1,478 @@
+﻿[
+  {
+    "name": "А.Д.М.И.Н.",
+    "icon": "/Images/Classes/a.d.m.i.n..png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "[Инициализация программы]"
+      },
+      {
+        "championsCount": 4,
+        "description": "[Добавление еще одного эффекта]. Все эффекты усиливаются на 25%"
+      },
+      {
+        "championsCount": 6,
+        "description": "Предыдущие эффекты усиливаются на 100%"
+      }
+    ]
+  },
+  {
+    "name": "Ас",
+    "icon": "/Images/Classes/Ace.png",
+    "buffs": [
+      {
+        "championsCount": 1,
+        "description": "При нанесении урона асы добивают врагов, у которых осталось менее 15% здоровья"
+      },
+      {
+        "championsCount": 4,
+        "description": "При нанесении урона асы добивают врагов, у которых осталось менее 33% здоровья"
+      }
+    ]
+  },
+  {
+    "name": "Вневременной",
+    "icon": "/Images/Classes/infiniteam.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "1 портал, 50% урона и 50% здоровья"
+      },
+      {
+        "championsCount": 5,
+        "description": "2 портала, 55% урона и 55% здоровья"
+      },
+      {
+        "championsCount": 7,
+        "description": "2 портала, 85% урона и 85% здоровья"
+      }
+    ]
+  },
+  {
+    "name": "Гаджетенок",
+    "icon": "/Images/Classes/gadgeteen.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "1 предмет, 4% урона за каждый предмет"
+      },
+      {
+        "championsCount": 5,
+        "description": "2 предмет, 8% урона за каждый предмет"
+      }
+    ]
+  },
+  {
+    "name": "Двойник",
+    "icon": "/Images/Classes/parallel.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "Эзреаль получает новое умение. Умение Супер-Эзреаля вызывает еще 2 его временные копии."
+      }
+    ]
+  },
+  {
+    "name": "Дебошир",
+    "icon": "/Images/Classes/brawler.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "+20% здоровья"
+      },
+      {
+        "championsCount": 4,
+        "description": "+45% здоровья"
+      },
+      {
+        "championsCount": 6,
+        "description": "+70% здоровья"
+      },
+      {
+        "championsCount": 8,
+        "description": "+100% здоровья"
+      }
+    ]
+  },
+  {
+    "name": "Дуэлянт",
+    "icon": "/Images/Classes/duelist.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "+5% скорости атаки за заряд"
+      },
+      {
+        "championsCount": 4,
+        "description": "+8% скорости атаки за заряд"
+      },
+      {
+        "championsCount": 6,
+        "description": "+10% скорости атаки за заряд; дуэлянты получают на 10% меньше урона"
+      },
+      {
+        "championsCount": 8,
+        "description": "+16% скорости атаки за заряд; дуэлянты получают на 20% меньше урона"
+      }
+    ]
+  },
+  {
+    "name": "Звездный защитник",
+    "icon": "/Images/Classes/starguardian.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "35% маны"
+      },
+      {
+        "championsCount": 4,
+        "description": "70% маны"
+      },
+      {
+        "championsCount": 6,
+        "description": "120% маны"
+      },
+      {
+        "championsCount": 8,
+        "description": "175% маны"
+      }
+    ]
+  },
+  {
+    "name": "Звериный отряд",
+    "icon": "/Images/Classes/animasquad.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "15% силы атаки и 15 силы умений"
+      },
+      {
+        "championsCount": 5,
+        "description": "35 силы атаки и 35 силы умений"
+      },
+      {
+        "championsCount": 7,
+        "description": "60% силы атаки и 60 силы умений"
+      }
+    ]
+  },
+  {
+    "name": "Злодей",
+    "icon": "/Images/Classes/threat.png",
+    "buffs": [
+      {
+        "championsCount": 1,
+        "description": "У злодеев нет бонуса особенности, но они компенсируют это мощными умениями"
+      }
+    ]
+  },
+  {
+    "name": "Команда Быка",
+    "icon": "/Images/Classes/oxforce.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "5 брони и сопротивления магии"
+      },
+      {
+        "championsCount": 4,
+        "description": "35 брони и сопротивления магии"
+      },
+      {
+        "championsCount": 6,
+        "description": "75 брони и сопротивления магии"
+      }
+    ]
+  },
+  {
+    "name": "ЛазерКорп",
+    "icon": "/Images/Classes/lasercorps.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "27 магического урона"
+      },
+      {
+        "championsCount": 4,
+        "description": "35 магического урона; все чемпионы получают по дрону"
+      },
+      {
+        "championsCount": 5,
+        "description": "55 магического урона"
+      },
+      {
+        "championsCount": 6,
+        "description": "80 магического урона"
+      }
+    ]
+  },
+  {
+    "name": "Маскот",
+    "icon": "/Images/Classes/mascot.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "1.5% здоровья"
+      },
+      {
+        "championsCount": 4,
+        "description": "3% здоровья"
+      },
+      {
+        "championsCount": 6,
+        "description": "6% здоровья"
+      }
+    ]
+  },
+  {
+    "name": "Машина",
+    "icon": "/Images/Classes/mechaprime.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "Главная машина получает 60 силы умений и 60% силы атаки"
+      },
+      {
+        "championsCount": 5,
+        "description": "Все машины получают 55 силы умений и 55% силы атаки; прибавки для главной машины увеличены вдвое"
+      }
+    ]
+  },
+  {
+    "name": "Метатель чар",
+    "icon": "/Images/Classes/spellslinger.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "+25 силы умений"
+      },
+      {
+        "championsCount": 4,
+        "description": "+45 силы умений"
+      },
+      {
+        "championsCount": 6,
+        "description": "+70 силы умений"
+      },
+      {
+        "championsCount": 8,
+        "description": "+110 силы умений, и сферы наносят урон в размере 100% от силы умений"
+      }
+    ]
+  },
+  {
+    "name": "Меткий стрелок",
+    "icon": "/Images/Classes/sureshot.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "+7% силы атаки"
+      },
+      {
+        "championsCount": 3,
+        "description": "+12% силы атаки"
+      },
+      {
+        "championsCount": 4,
+        "description": "+18% силы атаки"
+      },
+      {
+        "championsCount": 5,
+        "description": "+25% силы атаки"
+      }
+    ]
+  },
+  {
+    "name": "Озорник",
+    "icon": "/Images/Classes/prankster.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "Когда у озорников впервые остается 50% здоровья, они создают тренировочный манекен"
+      },
+      {
+        "championsCount": 3,
+        "description": "Манекены оглушают уничтоживших их врагов на 1.5 сек."
+      },
+      {
+        "championsCount": 4,
+        "description": "Количество восстанавливаемого здоровья увеличивается до 350.0"
+      }
+    ]
+  },
+  {
+    "name": "Оперативник",
+    "icon": "/Images/Classes/quickdraw.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "70% общего урона."
+      },
+      {
+        "championsCount": 3,
+        "description": "140% общего урона."
+      },
+      {
+        "championsCount": 4,
+        "description": "220% общего урона."
+      }
+    ]
+  },
+  {
+    "name": "Оскверненный",
+    "icon": "/Images/Classes/corrupted.png",
+    "buffs": [
+      {
+        "championsCount": 1,
+        "description": "Когда у оскверненного впервые остается 70% здоровья или вся его команда погибает, он оживает и вступает в бой"
+      }
+    ]
+  },
+  {
+    "name": "Отступник",
+    "icon": "/Images/Classes/renegade.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "25% дополнительного урона и еще 20% дополнительного урона для последнего выжившего"
+      },
+      {
+        "championsCount": 5,
+        "description": "40% дополнительного урона и еще 25% дополнительного урона для последнего выжившего"
+      },
+      {
+        "championsCount": 7,
+        "description": "70% дополнительного урона и еще 40% дополнительного урона для последнего выжившего"
+      }
+    ]
+  },
+  {
+    "name": "Подпольщик",
+    "icon": "/Images/Classes/theunderground.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "Количество замков, вскрываемых при победе: 2, при поражении: 3"
+      },
+      {
+        "championsCount": 4,
+        "description": "Количество замков, вскрываемых при победе: 2, при поражении: 4"
+      },
+      {
+        "championsCount": 5,
+        "description": "Количество замков, вскрываемых при победе: 3, при поражении: 5"
+      },
+      {
+        "championsCount": 6,
+        "description": "Количество замков, вскрываемых при победе: 4, при поражении: 7"
+      }
+    ]
+  },
+  {
+    "name": "Синоптик",
+    "icon": "/Images/Classes/forecaster.png",
+    "buffs": [
+      {
+        "championsCount": 1,
+        "description": "Синоптик дает примыкающим союзникам разные бонусы в зависимости от погоды"
+      }
+    ]
+  },
+  {
+    "name": "Скиталец",
+    "icon": "/Images/Classes/riftwalker.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "Скитальцы создают брешь между измерениями и призывают своего товарища Зака"
+      }
+    ]
+  },
+  {
+    "name": "Страж",
+    "icon": "/Images/Classes/defender.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "+25 брони, +50 брони для стражей"
+      },
+      {
+        "championsCount": 4,
+        "description": "+70 брони, +150 брони для стражей"
+      },
+      {
+        "championsCount": 6,
+        "description": "+180 брони, +400 брони для стражей"
+      }
+    ]
+  },
+  {
+    "name": "Супергерой",
+    "icon": "/Images/Classes/supers.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "Начало боя: супергерои принимают героическую позу, увеличивая урон своей команды на 18%."
+      }
+    ]
+  },
+  {
+    "name": "Хакер",
+    "icon": "/Images/Classes/hacker.png",
+    "buffs": [
+      {
+        "championsCount": 3,
+        "description": "10% вытягивания жизни для хакеров"
+      },
+      {
+        "championsCount": 4,
+        "description": "20% вытягивания жизни, +15% для переносимого бойца"
+      },
+      {
+        "championsCount": 5,
+        "description": "40% вытягивания жизни, +30% для переносимого бойца"
+      }
+    ]
+  },
+  {
+    "name": "Хранитель",
+    "icon": "/Images/Classes/aegis.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "+20 сопротивления магии, +40 сопротивления магии для хранителей"
+      },
+      {
+        "championsCount": 3,
+        "description": "+40 сопротивления магии, +80 сопротивления магии для хранителей"
+      },
+      {
+        "championsCount": 4,
+        "description": "+60 сопротивления магии, +120 сопротивления магии для хранителей"
+      },
+      {
+        "championsCount": 5,
+        "description": "+90 сопротивления магии, +180 сопротивления магии для хранителей"
+      }
+    ]
+  },
+  {
+    "name": "Эмпат",
+    "icon": "/Images/Classes/heart.png",
+    "buffs": [
+      {
+        "championsCount": 2,
+        "description": "+4 силы умений"
+      },
+      {
+        "championsCount": 4,
+        "description": "+7 силы умений"
+      },
+      {
+        "championsCount": 6,
+        "description": "+11 силы умений"
+      }
+    ]
+  }
+]

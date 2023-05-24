@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C375102-4296-4D7C-84F2-5ABD53888FA2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Практическая7</RootNamespace>
+    <AssemblyName>Практическая7</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.39\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ViewModel\SynergyControlViewModel.cs" />
+    <Compile Include="ViewModel\TeamViewModel.cs" />
+    <Compile Include="View\ChampionLineControl.xaml.cs">
+      <DependentUpon>ChampionLineControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Champion.cs" />
+    <Compile Include="Model\ChampionClass.cs" />
+    <Compile Include="Model\ClassBuff.cs" />
+    <Compile Include="Serializer.cs" />
+    <Compile Include="ViewModel\ChampionControlViewModel.cs" />
+    <Compile Include="ViewModel\ChampionsViewModel.cs" />
+    <Compile Include="ViewModel\ChampionViewModel.cs" />
+    <Compile Include="ViewModel\Helpers\BindableCommand.cs" />
+    <Compile Include="ViewModel\Helpers\BindingHelper.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="View\ChampionControl.xaml.cs">
+      <DependentUpon>ChampionControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ChampionsPage.xaml.cs">
+      <DependentUpon>ChampionsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ChampionWindow.xaml.cs">
+      <DependentUpon>ChampionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SynergyControl.xaml.cs">
+      <DependentUpon>SynergyControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TeamPage.xaml.cs">
+      <DependentUpon>TeamPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\ChampionLineControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ChampionControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ChampionsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ChampionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SynergyControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TeamPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Data\champions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\classes.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Champions\Aatrox.png" />
+    <Resource Include="Images\Champions\Alistar.png" />
+    <Resource Include="Images\Champions\Annie.png" />
+    <Resource Include="Images\Champions\Ashe.png" />
+    <Resource Include="Images\Champions\AurelionSol.png" />
+    <Resource Include="Images\Champions\Belveth.png" />
+    <Resource Include="Images\Champions\Blitzcrank.png" />
+    <Resource Include="Images\Champions\Camille.png" />
+    <Resource Include="Images\Champions\Draven.png" />
+    <Resource Include="Images\Champions\Ekko.png" />
+    <Resource Include="Images\Champions\Ezreal.png" />
+    <Resource Include="Images\Champions\Fiddlesticks.png" />
+    <Resource Include="Images\Champions\Fiora.png" />
+    <Resource Include="Images\Champions\Gangplank.png" />
+    <Resource Include="Images\Champions\Garen.png" />
+    <Resource Include="Images\Champions\Gnar.png" />
+    <Resource Include="Images\Champions\Janna.png" />
+    <Resource Include="Images\Champions\Jax.png" />
+    <Resource Include="Images\Champions\Jhin.png" />
+    <Resource Include="Images\Champions\Jinx.png" />
+    <Resource Include="Images\Champions\Kaisa.png" />
+    <Resource Include="Images\Champions\Kayle.png" />
+    <Resource Include="Images\Champions\Leblanc.png" />
+    <Resource Include="Images\Champions\LeeSin.png" />
+    <Resource Include="Images\Champions\Leona.png" />
+    <Resource Include="Images\Champions\Lucian.png" />
+    <Resource Include="Images\Champions\Lulu.png" />
+    <Resource Include="Images\Champions\Lux.png" />
+    <Resource Include="Images\Champions\Malphite.png" />
+    <Resource Include="Images\Champions\MissFortune.png" />
+    <Resource Include="Images\Champions\Mordekaiser.png" />
+    <Resource Include="Images\Champions\Morgana.png" />
+    <Resource Include="Images\Champions\Nasus.png" />
+    <Resource Include="Images\Champions\Neeko.png" />
+    <Resource Include="Images\Champions\Nilah.png" />
+    <Resource Include="Images\Champions\Nunu.png" />
+    <Resource Include="Images\Champions\Pantheon.png" />
+    <Resource Include="Images\Champions\Poppy.png" />
+    <Resource Include="Images\Champions\Pyke.png" />
+    <Resource Include="Images\Champions\Rammus.png" />
+    <Resource Include="Images\Champions\Rell.png" />
+    <Resource Include="Images\Champions\Renekton.png" />
+    <Resource Include="Images\Champions\Riven.png" />
+    <Resource Include="Images\Champions\Samira.png" />
+    <Resource Include="Images\Champions\Shen.png" />
+    <Resource Include="Images\Champions\Sivir.png" />
+    <Resource Include="Images\Champions\Sona.png" />
+    <Resource Include="Images\Champions\Sylas.png" />
+    <Resource Include="Images\Champions\Syndra.png" />
+    <Resource Include="Images\Champions\TwistedFate.png" />
+    <Resource Include="Images\Champions\UltimateEzreal.png" />
+    <Resource Include="Images\Champions\Urgot.png" />
+    <Resource Include="Images\Champions\Vayne.png" />
+    <Resource Include="Images\Champions\Vex.png" />
+    <Resource Include="Images\Champions\Vi.png" />
+    <Resource Include="Images\Champions\Viego.png" />
+    <Resource Include="Images\Champions\Warwick.png" />
+    <Resource Include="Images\Champions\Wukong.png" />
+    <Resource Include="Images\Champions\Yasuo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Classes\a.d.m.i.n..png" />
+    <Resource Include="Images\Classes\ace.png" />
+    <Resource Include="Images\Classes\aegis.png" />
+    <Resource Include="Images\Classes\animasquad.png" />
+    <Resource Include="Images\Classes\brawler.png" />
+    <Resource Include="Images\Classes\corrupted.png" />
+    <Resource Include="Images\Classes\defender.png" />
+    <Resource Include="Images\Classes\duelist.png" />
+    <Resource Include="Images\Classes\forecaster.png" />
+    <Resource Include="Images\Classes\gadgeteen.png" />
+    <Resource Include="Images\Classes\hacker.png" />
+    <Resource Include="Images\Classes\heart.png" />
+    <Resource Include="Images\Classes\infiniteam.png" />
+    <Resource Include="Images\Classes\lasercorps.png" />
+    <Resource Include="Images\Classes\mascot.png" />
+    <Resource Include="Images\Classes\mechaprime.png" />
+    <Resource Include="Images\Classes\oxforce.png" />
+    <Resource Include="Images\Classes\parallel.png" />
+    <Resource Include="Images\Classes\prankster.png" />
+    <Resource Include="Images\Classes\quickdraw.png" />
+    <Resource Include="Images\Classes\renegade.png" />
+    <Resource Include="Images\Classes\riftwalker.png" />
+    <Resource Include="Images\Classes\spellslinger.png" />
+    <Resource Include="Images\Classes\starguardian.png" />
+    <Resource Include="Images\Classes\supers.png" />
+    <Resource Include="Images\Classes\sureshot.png" />
+    <Resource Include="Images\Classes\theunderground.png" />
+    <Resource Include="Images\Classes\threat.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
